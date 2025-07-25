@@ -2186,6 +2186,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 942d3842a9b22614b9897e79c6e675c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1990312607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1990312609}
+  - component: {fileID: 1990312608}
+  m_Layer: 0
+  m_Name: LevelTransition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1990312608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990312607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 488f21098ae9a854a8244a314d01a164, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneName: Level2
+  transitionDelay: 1
+  transitionUI: {fileID: 0}
+  transitionText: {fileID: 0}
+  fadeCanvasGroup: {fileID: 0}
+  transitionEffect: {fileID: 0}
+  transitionSound: {fileID: 0}
+--- !u!4 &1990312609
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990312607}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 383.531, y: -0, z: -45.22341}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2145760861
 GameObject:
   m_ObjectHideFlags: 0
@@ -2418,3 +2469,4 @@ SceneRoots:
   - {fileID: 285147660}
   - {fileID: 1131579357}
   - {fileID: 1981578856}
+  - {fileID: 1990312609}

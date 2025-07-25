@@ -90,22 +90,58 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
     ""maps"": [
         {
             ""name"": ""Player"",
-            ""id"": ""360c59a7-8b41-4140-b4f0-9e82d61bb6e3"",
+            ""id"": ""f62a4b92-ef5e-4175-b2c9-9b9b2f75f9a5"",
             ""actions"": [
                 {
                     ""name"": ""Move"",
                     ""type"": ""Value"",
-                    ""id"": ""eb727d41-6353-40c0-a845-40cce909e9c6"",
+                    ""id"": ""2b9f2c22-b68f-4ce5-a3a1-2a7f7b7d3c9e"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Jump"",
+                    ""type"": ""Button"",
+                    ""id"": ""9b7a1c85-4d6f-4e8b-a1c3-5f6e9d8c2b1a"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Kamehameha"",
+                    ""type"": ""Button"",
+                    ""id"": ""7c8e2f94-1a5b-4d9c-8e7f-3b6a9c5d1e8f"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""TestDamage"",
+                    ""type"": ""Button"",
+                    ""id"": ""4a8b9c6d-7e1f-2a3b-9c8d-6e5f4a7b8c9d"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""TestHeal"",
+                    ""type"": ""Button"",
+                    ""id"": ""8d9e1f2a-3b4c-5d6e-7f8a-9b1c2d3e4f5a"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
                 {
-                    ""name"": ""2D Vector"",
-                    ""id"": ""b80527f0-1cd8-489f-ad91-d6f7e91e7444"",
+                    ""name"": ""WASD"",
+                    ""id"": ""b7ac8ba4-0f8a-4e9f-9d78-c1b2a3e4f5d6"",
                     ""path"": ""2DVector"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -116,8 +152,8 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""up"",
-                    ""id"": ""360f3c48-0570-4ed4-bcdb-2bc6ca3fea35"",
-                    ""path"": ""<Keyboard>/z"",
+                    ""id"": ""f1e2d3c4-b5a6-7890-1234-567890abcdef"",
+                    ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -127,7 +163,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""down"",
-                    ""id"": ""4e098127-eb3b-4562-ada1-55b64e1c49b7"",
+                    ""id"": ""a1b2c3d4-e5f6-7890-1234-567890fedcba"",
                     ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -138,8 +174,8 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""left"",
-                    ""id"": ""705dff8a-6de8-4a5c-89f8-5a11665ceb02"",
-                    ""path"": ""<Keyboard>/q"",
+                    ""id"": ""9f8e7d6c-5b4a-3210-9876-543210abcdef"",
+                    ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -149,7 +185,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""right"",
-                    ""id"": ""7d5cfda8-d93f-4513-90b6-30093f7e86a4"",
+                    ""id"": ""1a2b3c4d-5e6f-7890-1234-567890fedcba"",
                     ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -159,8 +195,8 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""2D Vector"",
-                    ""id"": ""eb4c7202-9c69-4262-b039-559f7df48bf1"",
+                    ""name"": ""Arrows"",
+                    ""id"": ""2c4e6a8b-1d3f-5790-2468-135790acefbd"",
                     ""path"": ""2DVector"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -171,7 +207,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""up"",
-                    ""id"": ""3da78b8a-0493-49fe-8ef4-0afcfb73ac80"",
+                    ""id"": ""5a7c9e1b-3d5f-7901-3579-246801357902"",
                     ""path"": ""<Keyboard>/upArrow"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -182,7 +218,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""down"",
-                    ""id"": ""5d856a34-e4fb-4fd7-87ee-a0741451ebce"",
+                    ""id"": ""7c9e1b3d-5f79-0135-7924-680135790246"",
                     ""path"": ""<Keyboard>/downArrow"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -193,7 +229,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""left"",
-                    ""id"": ""2ff1c04e-b326-4041-9d41-5a9d50fa906c"",
+                    ""id"": ""9e1b3d5f-7901-3579-2468-013579024680"",
                     ""path"": ""<Keyboard>/leftArrow"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -204,7 +240,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""right"",
-                    ""id"": ""037b0e59-832e-427d-980c-b4129a354515"",
+                    ""id"": ""1b3d5f79-0135-7924-6801-357902468013"",
                     ""path"": ""<Keyboard>/rightArrow"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -212,6 +248,50 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3d5f7901-3579-2468-0135-790246801357"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5f790135-7924-6801-3579-024680135790"",
+                    ""path"": ""<Keyboard>/f"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Kamehameha"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""79013579-2468-0135-7902-468013579024"",
+                    ""path"": ""<Keyboard>/t"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""TestDamage"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""01357924-6801-3579-0246-801357902468"",
+                    ""path"": ""<Keyboard>/h"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""TestHeal"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -221,6 +301,10 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         // Player
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
+        m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
+        m_Player_Kamehameha = m_Player.FindAction("Kamehameha", throwIfNotFound: true);
+        m_Player_TestDamage = m_Player.FindAction("TestDamage", throwIfNotFound: true);
+        m_Player_TestHeal = m_Player.FindAction("TestHeal", throwIfNotFound: true);
     }
 
     ~@PlayerInputActions()
@@ -302,6 +386,10 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
     private readonly InputActionMap m_Player;
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
     private readonly InputAction m_Player_Move;
+    private readonly InputAction m_Player_Jump;
+    private readonly InputAction m_Player_Kamehameha;
+    private readonly InputAction m_Player_TestDamage;
+    private readonly InputAction m_Player_TestHeal;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -317,6 +405,22 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Player/Move".
         /// </summary>
         public InputAction @Move => m_Wrapper.m_Player_Move;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Jump".
+        /// </summary>
+        public InputAction @Jump => m_Wrapper.m_Player_Jump;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Kamehameha".
+        /// </summary>
+        public InputAction @Kamehameha => m_Wrapper.m_Player_Kamehameha;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/TestDamage".
+        /// </summary>
+        public InputAction @TestDamage => m_Wrapper.m_Player_TestDamage;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/TestHeal".
+        /// </summary>
+        public InputAction @TestHeal => m_Wrapper.m_Player_TestHeal;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -346,6 +450,18 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
             @Move.started += instance.OnMove;
             @Move.performed += instance.OnMove;
             @Move.canceled += instance.OnMove;
+            @Jump.started += instance.OnJump;
+            @Jump.performed += instance.OnJump;
+            @Jump.canceled += instance.OnJump;
+            @Kamehameha.started += instance.OnKamehameha;
+            @Kamehameha.performed += instance.OnKamehameha;
+            @Kamehameha.canceled += instance.OnKamehameha;
+            @TestDamage.started += instance.OnTestDamage;
+            @TestDamage.performed += instance.OnTestDamage;
+            @TestDamage.canceled += instance.OnTestDamage;
+            @TestHeal.started += instance.OnTestHeal;
+            @TestHeal.performed += instance.OnTestHeal;
+            @TestHeal.canceled += instance.OnTestHeal;
         }
 
         /// <summary>
@@ -360,6 +476,18 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
             @Move.started -= instance.OnMove;
             @Move.performed -= instance.OnMove;
             @Move.canceled -= instance.OnMove;
+            @Jump.started -= instance.OnJump;
+            @Jump.performed -= instance.OnJump;
+            @Jump.canceled -= instance.OnJump;
+            @Kamehameha.started -= instance.OnKamehameha;
+            @Kamehameha.performed -= instance.OnKamehameha;
+            @Kamehameha.canceled -= instance.OnKamehameha;
+            @TestDamage.started -= instance.OnTestDamage;
+            @TestDamage.performed -= instance.OnTestDamage;
+            @TestDamage.canceled -= instance.OnTestDamage;
+            @TestHeal.started -= instance.OnTestHeal;
+            @TestHeal.performed -= instance.OnTestHeal;
+            @TestHeal.canceled -= instance.OnTestHeal;
         }
 
         /// <summary>
@@ -407,5 +535,33 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnMove(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Jump" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnJump(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Kamehameha" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnKamehameha(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "TestDamage" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnTestDamage(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "TestHeal" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnTestHeal(InputAction.CallbackContext context);
     }
 }

@@ -11,7 +11,6 @@ public class MenuManager : MonoBehaviour
 
     void Start()
     {
-        // Assigner les fonctions aux boutons
         playButton.onClick.AddListener(LoadGameScene);
         creditsButton.onClick.AddListener(LoadCreditsScene);
         quitButton.onClick.AddListener(QuitGame);
